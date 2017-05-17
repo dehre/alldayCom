@@ -2,7 +2,7 @@
 
 .logo {
   width: 120px;
-  height: 50px;
+  height: 60px;
   background-image: url("../images/logo.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,11 +28,15 @@ li {
   align-items: center;
   background-color: white;
 }
+.bars-icon {
+  padding: 0 1.5rem;
+}
 .nav-link {
   display: none;
 }
 .find-lens {
   margin-left: auto;
+  padding: 0 1.5rem;
 }
 
 
