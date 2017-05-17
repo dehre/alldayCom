@@ -10,11 +10,15 @@ li {
 }
 
 /*NAVBAR*/
+.fixed-navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 .navbar {
   display: flex;
   align-items: center;
   background-color: white;
-  width: 100%;
 }
 .nav-link {
   display: none;
