@@ -240,5 +240,33 @@ footer .logo {
   .sub-art {
     font-size: 1.6em;
   }
-  
+  .footer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .logo-social {
+    flex: 1 20%;
+  }
+  .newsletter {
+    flex: 1 60%;
+  }
+  .newsletter > * {
+    text-align: center;
+  }
+  .links {
+    flex: 1 33.3%;
+  }
+  .logo-social {
+    padding: 1.7em;
+  }
+  .social {
+    text-align: left;
+  }
+  .links {
+    flex-direction: column;
+    margin: 1em 0 .3em;
+  }
+  .link {
+    padding: .3em 0;
+  }
 }
