@@ -101,3 +101,17 @@ img {
 }
 
 /*FOOTER*/
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+footer .logo {
+  height: 29px;
+  background-image: url("../images/logo-footer.png");
+}
+.footer a {
+  color: white;
+}
