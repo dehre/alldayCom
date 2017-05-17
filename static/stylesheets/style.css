@@ -1,10 +1,27 @@
+/*GENERAL SETTINGS*/
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+
 /*NAVBAR*/
-/*.navbar {
+.navbar {
   display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
 }
 .nav-link {
   display: none;
-}*/
+}
+.find-lens {
+  margin-left: auto;
+}
 
 
 /*PRESENTATION-IMAGE*/
