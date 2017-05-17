@@ -1,3 +1,4 @@
-h1 {
-  color: red;
+.presentation-image {
+  color: white;
+  background-image: url("../images/present.jpg");
 }
