@@ -87,6 +87,17 @@ img {
 /*MAINBAR*/
 
 /*SIDEBAR */
-
+.sidebar-title {
+  font-size: 1.5em;
+  border-bottom: 5px solid black;
+  margin-bottom: .5em;
+  /*padding-left: .5em;*/
+}
+.sidebar-title span {
+  background-color: black;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  padding: 0 .4em;
+}
 
 /*FOOTER*/
