@@ -21,16 +21,17 @@ li {
   list-style: none;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   border-radius: 3%;
 }
 
+/*TEXT DIMENSIONS*/
 .link,
 #newsletter-text,
 .article,
 .footer input,
 .footer button {
-  font-size: 1.1em;
+  font-size: 1.15em;
 }
 
 /*NAVBAR*/
@@ -67,8 +68,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  font-weight: 400;
-  font-size: .9em;
+  font-weight: normal;
+  font-size: .8em;
 }
 .presentation-image h1 {
   color: white;
@@ -148,4 +149,54 @@ footer .logo {
 .link {
   flex: 1 50%;
   padding: .5em 0;
+}
+
+@media only screen and (min-width: 375px){
+  .link,
+  #newsletter-text,
+  .article,
+  .footer input,
+  .footer button {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .link,
+  #newsletter-text,
+  .article,
+  .footer input,
+  .footer button {
+    font-size: 1.6em;
+  }
+  .logo {
+    height: 100px;
+  }
+  .bars-icon {
+    padding: 0 2.5rem;
+  }
+  .presentation-image {
+    margin: 100px 0 0 0;
+    font-size: 1.1em;
+  }
+  .container {
+    margin: 3em auto;
+  }
+  .sub-art{
+    float: left;
+    width: 49%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-size: 1.4em;
+  }
+  .sub-art:nth-child(2n){
+    clear: left;
+  }
+  .sidebar-title {
+    font-size: 1.8em;
+  }
+  .link {
+    flex: 1 33.3%;
+    padding: .5em 0;
+  }
 }
