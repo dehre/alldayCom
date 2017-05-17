@@ -245,7 +245,7 @@ footer .logo {
     align-items: flex-start;
   }
   .logo-social {
-    flex: 1 20%;
+    flex: 1 30%;
   }
   .newsletter {
     flex: 1 60%;
@@ -254,10 +254,11 @@ footer .logo {
     text-align: center;
   }
   .links {
-    flex: 1 33.3%;
+    flex: 1 30%;
   }
   .logo-social {
-    padding: 1.7em;
+    padding-top: 1.7em;
+    padding-left: 5em;
   }
   .social {
     text-align: left;
