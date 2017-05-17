@@ -131,14 +131,14 @@ footer .logo {
 }
 .footer input,
 .footer button {
-  border-radius: .5em;
+  border-radius: .2em;
   border: 0;
   padding: .3em;
 }
 .footer button {
   background-color: #198afe;
   color: white;
-  font-weight: bold;
+  border: 1px solid white;
 }
 
 .links {
@@ -172,7 +172,8 @@ footer .logo {
   .logo {
     height: 100px;
   }
-  .bars-icon {
+  .bars-icon,
+  .find-lens {
     padding: 0 2.5rem;
   }
   .presentation-image {
@@ -193,10 +194,43 @@ footer .logo {
     clear: left;
   }
   .sidebar-title {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
   .link {
     flex: 1 33.3%;
     padding: .5em 0;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .navbar .logo {
+    margin: 0 2%;
+  }
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    max-width: 900px;
+  }
+  .nav-link li {
+    font-size: 1.2em;
+    flex-grow: 1;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .mainbar {
+    flex: 1 65%;
+  }
+  .sidebar {
+    flex: 1 35%;
+  }
+  .sidebar-title {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .sub-art {
+    font-size: 1.6em;
   }
 }
